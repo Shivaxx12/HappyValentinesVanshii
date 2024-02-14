@@ -2,14 +2,15 @@ import { useState } from 'react'
 import './App.css'
 
 const phrases = [
-  "No 🙉",
-  "Are you sure?",
-  "Really Sure😢",
-  "I'll be very sad😕",
-  "Pookie Please🥺",
-  "Don't do this to me🫤",
-  "I'm gonna cry..😭",
-  "You are breaking my heart😭💔",
+  "No?",
+  "Are you sure, Vanshii?",
+  "Really Sureee Vanshiiii???",
+  "Aisseeee matt karr yaaaar",
+  "OYYYEEEEEEEE!",
+  "Maiii tainnuu naal baat ni karna haiga sii",
+  "Abb tuu aisaa karegiii meree satthhh??? 🥺",
+  "You know this will  completely shatter me from the inside...",
+  "Oops! You have no other choice my girll!"
 ]
 
 function App() {
@@ -34,12 +35,13 @@ function App() {
       {yesPressed ? (
         <>
           <img src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif" alt="bear-Kissing" />
-          <div className='text'>Yayyy !!!</div>
+          <div className='text'>A year and a half of struggle, it wasn't easy but it's fine. {"\n"}
+          After all the ups and downs, I'm glad I can finally call you mine❤️ </div>
         </>
       ) : (
         <>
           <img className='kiss' src="https://media1.tenor.com/m/al4a1pG1f8YAAAAC/jump-bear.gif" alt="bear with heart" />
-          <div className='text'>Will you be my valentine 🌹?</div>
+          <div className='text'>Will you be my valentine's Vanshika? 🌹</div>
           <div className='both-Button'>
             <button className='yesButton'
             style={{ fontSize: yesButtonSize , backgroundColor:'rgb(248, 229, 89)'}}
