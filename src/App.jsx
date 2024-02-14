@@ -10,7 +10,7 @@ const phrases = [
   "Maiii tainnuu naal baat ni karna haiga sii",
   "Abb tuu aisaa karegiii meree satthhh??? 🥺",
   "You know this will  completely shatter me from the inside...",
-  "Oops! You have no other choice my girll!"
+  "Mere ko chodhh ke kahann hii jayegii merii pyaari vanshiiii 😏👨🏽‍🤝‍👩🏻"
 ]
 
 function App() {
@@ -35,8 +35,15 @@ function App() {
       {yesPressed ? (
         <>
           <img src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif" alt="bear-Kissing" />
-          <div className='text'>A year and a half of struggle, it wasn't easy but it's fine. {"\n"}
-          After all the ups and downs, I'm glad I can finally call you mine❤️ </div>
+          <div className='text'>{`
+              A year and a half of ride, in the beginning it was just fine,
+              Then came along you, bright and cheerful as sunshine.
+              life was beautiful again, in my heart I knew this was a sign.
+              after all the ups and downs, I'm glad to finally call you mine❤️
+
+              You're the best thing to have happened to me, Vanshika <3
+            `}
+          </div>
         </>
       ) : (
         <>
